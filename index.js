@@ -26,7 +26,6 @@
   var sceneNameElement = document.querySelector("#titleBar .sceneName");
   var sceneListElement = document.querySelector("#sceneList");
   var sceneElements = document.querySelectorAll("#sceneList .scene");
-  var sceneListToggleElement = document.querySelector("#sceneListToggle");
   var autorotateToggleElement = document.querySelector("#autorotateToggle");
   var fullscreenToggleElement = document.querySelector("#fullscreenToggle");
 
@@ -149,14 +148,6 @@
     document.body.classList.add("fullscreen-disabled");
   }
 
-  // Set handler for scene list toggle.
-  sceneListToggleElement.addEventListener("click", toggleSceneList);
-
-  // Start with the scene list open on desktop.
-  if (!document.body.classList.contains("mobile")) {
-    showSceneList();
-  }
-
   // Set handler for scene switch.
   scenes.forEach(function (scene) {
     var el = document.querySelector(
@@ -274,19 +265,12 @@
     }
   }
 
-  function showSceneList() {
-    sceneListElement.classList.add("enabled");
-    sceneListToggleElement.classList.add("enabled");
-  }
-
   function hideSceneList() {
     sceneListElement.classList.remove("enabled");
-    sceneListToggleElement.classList.remove("enabled");
   }
 
   function toggleSceneList() {
     sceneListElement.classList.toggle("enabled");
-    sceneListToggleElement.classList.toggle("enabled");
   }
 
   function startAutorotate() {
