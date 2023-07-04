@@ -760,7 +760,7 @@ var APP_DATA = {
   name: "Nevera",
   settings: {
     mouseViewMode: "drag",
-    autorotateEnabled: true,
+    autorotateEnabled: false,
     fullscreenButton: true,
     viewControlButtons: false,
   },
