@@ -803,3 +803,78 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+#map-overlay {
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+  height: 200px;
+  display: block;
+  cursor: pointer;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#map-overlay:hover {
+  filter: brightness(50%);
+}
+
+#map-overlay.active {
+  filter: brightness(100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  border-radius: 0;
+  overflow: auto;
+}
+
+#map-overlay svg {
+  height: 100%;
+}
+
+.point {
+  animation: reflection 0.8s linear 0s infinite alternate;
+  cursor: pointer;
+}
+
+.line-test {
+  animation: test 0.8s linear 0s infinite alternate;
+}
+
+.point-test {
+  animation: test2 0.8s linear 0s infinite alternate;
+}
+
+@keyframes reflection {
+  from {
+    filter: opacity(70%);
+  }
+  to {
+    filter: opacity(100%);
+  }
+}
+
+@keyframes test {
+  from {
+    stroke-width: 0.5;
+  }
+  to {
+    stroke-width: 2;
+  }
+}
+
+@keyframes test2 {
+  from {
+    r: 3;
+  }
+  to {
+    r: 5;
+  }
+}
