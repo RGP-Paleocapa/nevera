@@ -819,7 +819,11 @@ body.view-control-buttons .viewControlButton {
   filter: brightness(50%);
 }
 
-#map-overlay.active {
+body.mobile #map-overlay {
+  height: 100px;
+}
+
+body #map-overlay.active {
   filter: brightness(100%);
   position: fixed;
   top: 0;
