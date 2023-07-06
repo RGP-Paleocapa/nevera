@@ -33,7 +33,7 @@ var APP_DATA = {
           yaw: -0.23817464724527682,
           pitch: 0.10231538244980953,
           rotation: 12.566370614359176,
-          target: "2-ingresso-museo-1",
+          target: "2-ingresso-museo-primo-locale-1",
         },
         {
           yaw: 1.5088723555172425,
@@ -89,8 +89,8 @@ var APP_DATA = {
       infoHotspots: [],
     },
     {
-      id: "2-ingresso-museo-1",
-      name: "Ingresso Museo 1",
+      id: "2-ingresso-museo-primo-locale-1",
+      name: "Ingresso Museo - primo locale 1",
       levels: [
         {
           tileSize: 256,
@@ -121,14 +121,14 @@ var APP_DATA = {
           yaw: -1.7475782313745416,
           pitch: 0.4425969374781431,
           rotation: 11.780972450961727,
-          target: "3-ingresso-museo-2",
+          target: "3-ingresso-museo-primo-locale-2",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "3-ingresso-museo-2",
-      name: "Ingresso Museo 2",
+      id: "3-ingresso-museo-primo-locale-2",
+      name: "Ingresso Museo - primo locale 2",
       levels: [
         {
           tileSize: 256,
@@ -159,20 +159,20 @@ var APP_DATA = {
           yaw: 2.0633658797847385,
           pitch: 0.5653961158338117,
           rotation: 7.853981633974483,
-          target: "5-stanza-museo-1",
+          target: "5-museo-secondo-locale",
         },
         {
           yaw: 0.6875001061502992,
           pitch: 0.25264886457414804,
           rotation: 0.7853981633974483,
-          target: "4-ingresso-museo-3",
+          target: "4-ingresso-al-tunnel-della-nevera",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "4-ingresso-museo-3",
-      name: "Ingresso Museo 3",
+      id: "4-ingresso-al-tunnel-della-nevera",
+      name: "Ingresso al tunnel della Nevera",
       levels: [
         {
           tileSize: 256,
@@ -203,14 +203,14 @@ var APP_DATA = {
           yaw: -2.9895572951990594,
           pitch: 0.25555409802460716,
           rotation: 0,
-          target: "7-corridoio-nevera",
+          target: "7-proseguimento-tunnel",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "5-stanza-museo-1",
-      name: "Stanza Museo 1",
+      id: "5-museo-secondo-locale",
+      name: "Museo - secondo locale",
       levels: [
         {
           tileSize: 256,
@@ -241,7 +241,7 @@ var APP_DATA = {
           yaw: -0.6346106268420115,
           pitch: 0.3294780074123391,
           rotation: 5.497787143782138,
-          target: "3-ingresso-museo-2",
+          target: "3-ingresso-museo-primo-locale-2",
         },
         {
           yaw: -2.0929144475571064,
@@ -285,14 +285,14 @@ var APP_DATA = {
           yaw: -0.561814934065378,
           pitch: 0.4029667454707706,
           rotation: 0.7853981633974483,
-          target: "5-stanza-museo-1",
+          target: "5-museo-secondo-locale",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "7-corridoio-nevera",
-      name: "Corridoio Nevera",
+      id: "7-proseguimento-tunnel",
+      name: "Proseguimento tunnel",
       levels: [
         {
           tileSize: 256,
@@ -323,14 +323,14 @@ var APP_DATA = {
           yaw: 3.1060420809943405,
           pitch: 0.3208542954131417,
           rotation: 4.71238898038469,
-          target: "8-svincolo",
+          target: "8-svincolo-tunnel",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "8-svincolo",
-      name: "Svincolo",
+      id: "8-svincolo-tunnel",
+      name: "Svincolo Tunnel",
       levels: [
         {
           tileSize: 256,
@@ -405,7 +405,7 @@ var APP_DATA = {
           yaw: 1.772068458614073,
           pitch: -0.08755271039518853,
           rotation: 2.356194490192345,
-          target: "8-svincolo",
+          target: "8-svincolo-tunnel",
         },
       ],
       infoHotspots: [],
@@ -449,20 +449,20 @@ var APP_DATA = {
           yaw: 0.10584313165782433,
           pitch: 0.053376538394326545,
           rotation: 2.356194490192345,
-          target: "8-svincolo",
+          target: "8-svincolo-tunnel",
         },
         {
           yaw: -3.068797817557371,
           pitch: -0.6256786159285639,
           rotation: 0,
-          target: "11-piazzetta-1",
+          target: "11-piazzetta-esterna",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "11-piazzetta-1",
-      name: "Piazzetta 1",
+      id: "11-piazzetta-esterna",
+      name: "Piazzetta Esterna",
       levels: [
         {
           tileSize: 256,
@@ -493,14 +493,14 @@ var APP_DATA = {
           yaw: -3.1415641017869156,
           pitch: 0.46729967059663835,
           rotation: 1.5707963267948966,
-          target: "12-piazzetta-2",
+          target: "12-casa-del-maestro",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "12-piazzetta-2",
-      name: "Piazzetta 2",
+      id: "12-casa-del-maestro",
+      name: "Casa del maestro",
       levels: [
         {
           tileSize: 256,
@@ -531,7 +531,7 @@ var APP_DATA = {
           yaw: 2.9726404786367517,
           pitch: 0.12541071417435035,
           rotation: 3.141592653589793,
-          target: "11-piazzetta-1",
+          target: "11-piazzetta-esterna",
         },
         {
           yaw: 1.3830260574836153,
@@ -581,7 +581,7 @@ var APP_DATA = {
           yaw: 4.6,
           pitch: 0.2,
           rotation: 11,
-          target: "12-piazzetta-2",
+          target: "12-casa-del-maestro",
         },
         {
           yaw: 2.420318991846152,
@@ -751,7 +751,7 @@ var APP_DATA = {
           yaw: 0.380864005166174,
           pitch: 0.3367534292801828,
           rotation: 3.141592653589793,
-          target: "12-piazzetta-2",
+          target: "12-casa-del-maestro",
         },
       ],
       infoHotspots: [],
