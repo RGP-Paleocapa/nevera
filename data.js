@@ -2,7 +2,7 @@ var APP_DATA = {
   scenes: [
     {
       id: "0-museo-1",
-      name: "Museo 1",
+      name: "Museo",
       levels: [
         {
           tileSize: 256,
@@ -46,7 +46,7 @@ var APP_DATA = {
     },
     {
       id: "1-museo-2",
-      name: "Museo 2",
+      name: "Museo",
       levels: [
         {
           tileSize: 256,
@@ -77,7 +77,7 @@ var APP_DATA = {
           yaw: 0.7585240356298737,
           pitch: 0.06473834479165141,
           rotation: 5.497787143782138,
-          target: "13-piazzetta-3",
+          target: "13-piazzetta-esterna-3",
         },
         {
           yaw: -1.763085814502526,
@@ -118,6 +118,12 @@ var APP_DATA = {
       },
       linkHotspots: [
         {
+          yaw: 1.1,
+          pitch: 0.2,
+          rotation: 3.4,
+          target: "0-museo-1",
+        },
+        {
           yaw: -1.7475782313745416,
           pitch: 0.4425969374781431,
           rotation: 11.780972450961727,
@@ -155,6 +161,12 @@ var APP_DATA = {
         fov: 1.4550425388027854,
       },
       linkHotspots: [
+        {
+          yaw: -1,
+          pitch: 0.5,
+          rotation: 2,
+          target: "2-ingresso-museo-primo-locale-1",
+        },
         {
           yaw: 2.0633658797847385,
           pitch: 0.5653961158338117,
@@ -204,6 +216,18 @@ var APP_DATA = {
           pitch: 0.25555409802460716,
           rotation: 0,
           target: "7-proseguimento-tunnel",
+        },
+        {
+          yaw: -0.6,
+          pitch: 0.2,
+          rotation: 3,
+          target: "3-ingresso-museo-primo-locale-2",
+        },
+        {
+          yaw: -1.4,
+          pitch: 0.3,
+          rotation: 0,
+          target: "5-museo-secondo-locale",
         },
       ],
       infoHotspots: [],
@@ -320,6 +344,12 @@ var APP_DATA = {
       },
       linkHotspots: [
         {
+          yaw: -0.05,
+          pitch: 0.3,
+          rotation: 3,
+          target: "4-ingresso-al-tunnel-della-nevera",
+        },
+        {
           yaw: 3.1060420809943405,
           pitch: 0.3208542954131417,
           rotation: 4.71238898038469,
@@ -357,6 +387,12 @@ var APP_DATA = {
         fov: 1.4550425388027854,
       },
       linkHotspots: [
+        {
+          yaw: 2.4,
+          pitch: 0.2,
+          rotation: 3,
+          target: "7-proseguimento-tunnel",
+        },
         {
           yaw: -2.3842312723738512,
           pitch: 0.8399539928291748,
@@ -401,6 +437,12 @@ var APP_DATA = {
         fov: 1.5707963267948966,
       },
       linkHotspots: [
+        {
+          yaw: -1.35,
+          pitch: 0.3,
+          rotation: 0,
+          target: "10-nevera",
+        },
         {
           yaw: 1.772068458614073,
           pitch: -0.08755271039518853,
@@ -455,14 +497,14 @@ var APP_DATA = {
           yaw: -3.068797817557371,
           pitch: -0.6256786159285639,
           rotation: 0,
-          target: "11-piazzetta-esterna",
+          target: "11-piazzetta-esterna-1",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "11-piazzetta-esterna",
-      name: "Piazzetta Esterna",
+      id: "11-piazzetta-esterna-1",
+      name: "Piazzetta esterna",
       levels: [
         {
           tileSize: 256,
@@ -490,17 +532,23 @@ var APP_DATA = {
       },
       linkHotspots: [
         {
+          yaw: 0,
+          pitch: 1.5,
+          rotation: 0,
+          target: "10-nevera",
+        },
+        {
           yaw: -3.1415641017869156,
           pitch: 0.46729967059663835,
           rotation: 1.5707963267948966,
-          target: "12-casa-del-maestro",
+          target: "12-piazzetta-esterna-2",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "12-casa-del-maestro",
-      name: "Casa del maestro",
+      id: "12-piazzetta-esterna-2",
+      name: "Piazzetta esterna",
       levels: [
         {
           tileSize: 256,
@@ -531,7 +579,7 @@ var APP_DATA = {
           yaw: 2.9726404786367517,
           pitch: 0.12541071417435035,
           rotation: 3.141592653589793,
-          target: "11-piazzetta-esterna",
+          target: "11-piazzetta-esterna-1",
         },
         {
           yaw: 1.3830260574836153,
@@ -543,14 +591,14 @@ var APP_DATA = {
           yaw: -0.2921980901382035,
           pitch: 0.3223224212032427,
           rotation: 1.5707963267948966,
-          target: "13-piazzetta-3",
+          target: "13-piazzetta-esterna-3",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "13-piazzetta-3",
-      name: "Piazzetta 3",
+      id: "13-piazzetta-esterna-3",
+      name: "Piazzetta esterna",
       levels: [
         {
           tileSize: 256,
@@ -581,7 +629,7 @@ var APP_DATA = {
           yaw: 4.6,
           pitch: 0.2,
           rotation: 11,
-          target: "12-casa-del-maestro",
+          target: "12-piazzetta-esterna-2",
         },
         {
           yaw: 2.420318991846152,
@@ -594,7 +642,7 @@ var APP_DATA = {
     },
     {
       id: "14-porticato-1",
-      name: "Porticato 1",
+      name: "Porticato",
       levels: [
         {
           tileSize: 256,
@@ -632,7 +680,7 @@ var APP_DATA = {
     },
     {
       id: "15-porticato-2",
-      name: "Porticato 2",
+      name: "Porticato",
       levels: [
         {
           tileSize: 256,
@@ -676,7 +724,7 @@ var APP_DATA = {
     },
     {
       id: "16-porticato-3",
-      name: "Porticato 3",
+      name: "Porticato",
       levels: [
         {
           tileSize: 256,
@@ -707,14 +755,14 @@ var APP_DATA = {
           yaw: 2.5352013986108695,
           pitch: 0.29458640795051494,
           rotation: 1.5707963267948966,
-          target: "17-porticato-4",
+          target: "17-casa-del-maestro",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "17-porticato-4",
-      name: "Porticato 4",
+      id: "17-casa-del-maestro",
+      name: "Casa del Maestro",
       levels: [
         {
           tileSize: 256,
@@ -751,7 +799,7 @@ var APP_DATA = {
           yaw: 0.380864005166174,
           pitch: 0.3367534292801828,
           rotation: 3.141592653589793,
-          target: "12-casa-del-maestro",
+          target: "12-piazzetta-esterna-2",
         },
       ],
       infoHotspots: [],
