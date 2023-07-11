@@ -90,7 +90,7 @@ var APP_DATA = {
     },
     {
       id: "2-ingresso-museo-primo-locale-1",
-      name: "Ingresso Museo - primo locale 1",
+      name: "Ingresso Museo - primo locale",
       levels: [
         {
           tileSize: 256,
@@ -134,7 +134,7 @@ var APP_DATA = {
     },
     {
       id: "3-ingresso-museo-primo-locale-2",
-      name: "Ingresso Museo - primo locale 2",
+      name: "Ingresso Museo - primo locale",
       levels: [
         {
           tileSize: 256,
@@ -171,7 +171,7 @@ var APP_DATA = {
           yaw: 2.0633658797847385,
           pitch: 0.5653961158338117,
           rotation: 7.853981633974483,
-          target: "5-museo-secondo-locale",
+          target: "5-museo-secondo-locale-1",
         },
         {
           yaw: 0.6875001061502992,
@@ -227,13 +227,13 @@ var APP_DATA = {
           yaw: -1.4,
           pitch: 0.3,
           rotation: 0,
-          target: "5-museo-secondo-locale",
+          target: "5-museo-secondo-locale-1",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "5-museo-secondo-locale",
+      id: "5-museo-secondo-locale-1",
       name: "Museo - secondo locale",
       levels: [
         {
@@ -271,14 +271,14 @@ var APP_DATA = {
           yaw: -2.0929144475571064,
           pitch: 0.4481530042919637,
           rotation: 0.7853981633974483,
-          target: "6-stanza-museo-2",
+          target: "6-museo-secondo-locale-2",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "6-stanza-museo-2",
-      name: "Stanza Museo 2",
+      id: "6-museo-secondo-locale-2",
+      name: "Museo - secondo locale",
       levels: [
         {
           tileSize: 256,
@@ -309,7 +309,7 @@ var APP_DATA = {
           yaw: -0.561814934065378,
           pitch: 0.4029667454707706,
           rotation: 0.7853981633974483,
-          target: "5-museo-secondo-locale",
+          target: "5-museo-secondo-locale-1",
         },
       ],
       infoHotspots: [],
