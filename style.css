@@ -204,7 +204,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   display: none;
 }
 
-#sceneListToggle {
+#info-button {
   position: absolute;
   top: 0;
   left: 0;
@@ -215,12 +215,12 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   background-color: rgba(103, 115, 131, 0.8);
 }
 
-.mobile #sceneListToggle {
+.mobile #info-button {
   width: 50px;
   height: 50px;
 }
 
-#sceneListToggle .text {
+#info-button .text {
   position: absolute;
   top: 5px;
   left: 15px;
@@ -228,7 +228,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   line-height: 30px;
 }
 
-#sceneListToggle .icon {
+#info-button .icon {
   position: absolute;
   top: 5px;
   right: 5px;
@@ -236,24 +236,24 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   height: 30px;
 }
 
-.mobile #sceneListToggle .icon {
+.mobile #info-button .icon {
   top: 10px;
   right: 10px;
 }
 
-#sceneListToggle .icon.on {
+#info-button .icon.on {
   display: none;
 }
 
-#sceneListToggle .icon.off {
+#info-button .icon.off {
   display: block;
 }
 
-#sceneListToggle.enabled .icon.on {
+#info-button.enabled .icon.on {
   display: block;
 }
 
-#sceneListToggle.enabled .icon.off {
+#info-button.enabled .icon.off {
   display: none;
 }
 
@@ -335,7 +335,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 /* Hide scene list when only a single scene exists */
 body.single-scene #sceneList,
-body.single-scene #sceneListToggle {
+body.single-scene #info-button {
   display: none;
 }
 
@@ -881,4 +881,61 @@ body #map-overlay.active {
   to {
     r: 5;
   }
+}
+
+#welcome-page {
+  position: fixed;
+  width: 80vw;
+  height: 80vh;
+  top: 10vh;
+  left: 10vw;
+  z-index: 1;
+  background: rgb(58, 68, 84, 0.95);
+  border-radius: 1rem;
+  display: none;
+  flex-direction: column;
+}
+
+#welcome-page.active {
+  display: flex;
+}
+
+.welcome-page_body {
+  padding: 0 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.welcome-page_body h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.welcome-page_body p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.welcome-page_body div {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.welcome-page_body div:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.welcome-page_footer {
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

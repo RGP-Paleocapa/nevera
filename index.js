@@ -383,3 +383,21 @@
   // Display the initial scene.
   switchScene(scenes[0]);
 })();
+
+var welcomePage = document.getElementById("welcome-page");
+var exploreButton = document.getElementById("explore-button");
+var infoButton = document.getElementById("info-button");
+
+if (localStorage.getItem("intro") !== "true") {
+  welcomePage.classList.add("active");
+}
+
+exploreButton.addEventListener("click", function () {
+  localStorage.setItem("intro", "true");
+  welcomePage.classList.remove("active");
+  console.log(true);
+});
+
+infoButton.addEventListener("click", function () {
+  welcomePage.classList.add("active");
+});
