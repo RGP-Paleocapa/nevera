@@ -894,6 +894,16 @@ body #map-overlay.active {
   border-radius: 1rem;
   display: none;
   flex-direction: column;
+  padding: 0 6rem;
+}
+
+.mobile #welcome-page {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+  padding: 0 1rem;
 }
 
 #welcome-page.active {
@@ -901,7 +911,6 @@ body #map-overlay.active {
 }
 
 .welcome-page_body {
-  padding: 0 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
