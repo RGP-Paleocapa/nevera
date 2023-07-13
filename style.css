@@ -943,8 +943,19 @@ body #map-overlay.active {
 }
 
 .welcome-page_footer {
-  height: 3rem;
+  padding: 1rem 0;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+
+.welcome-page_footer .credits {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.welcome-page_footer .copyright {
+  font-size: 0.6rem;
 }
