@@ -161,9 +161,11 @@
       '#map-overlay  .scene[data-id="' + scene.data.id + '"]'
     );
     el.addEventListener("click", function (e) {
-      e.stopPropagation();
-      mapOverlay.classList.remove("active");
-      switchScene(scene);
+      if (mapOverlay.classList.contains("active")) {
+        e.stopPropagation();
+        mapOverlay.classList.remove("active");
+        switchScene(scene);
+      }
     });
   });
 
