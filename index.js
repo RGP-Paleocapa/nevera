@@ -397,7 +397,6 @@ if (localStorage.getItem("intro") !== "true") {
 exploreButton.addEventListener("click", function () {
   localStorage.setItem("intro", "true");
   welcomePage.classList.remove("active");
-  console.log(true);
 });
 
 infoButton.addEventListener("click", function () {
