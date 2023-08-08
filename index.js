@@ -27,6 +27,15 @@
     mapOverlay.classList.add("active");
   });
 
+  var closeMap = document.querySelector("#map-overlay .close-map");
+
+  closeMap.addEventListener("click", (e) => {
+    if (mapOverlay.classList.contains("active")) {
+      e.stopPropagation();
+      mapOverlay.classList.remove("active");
+    }
+  });
+
   // Grab elements from DOM.
   var panoElement = document.querySelector("#pano");
   var sceneNameElement = document.querySelector("#titleBar .sceneName");

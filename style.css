@@ -827,7 +827,7 @@ body.mobile #map-overlay {
   height: 100px;
 }
 
-body #map-overlay.active {
+body.mobile #map-overlay.active {
   filter: brightness(100%);
   position: fixed;
   top: 0;
@@ -843,8 +843,22 @@ body #map-overlay.active {
   overflow: auto;
 }
 
+#map-overlay.active .close-map {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  display: block;
+}
+
 #map-overlay svg {
   height: 100%;
+}
+
+#map-overlay .close-map {
+  display: none;
+  width: 2rem;
+  cursor: pointer;
+  z-index: 100;
 }
 
 .point {
