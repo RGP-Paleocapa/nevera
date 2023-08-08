@@ -819,6 +819,10 @@ body.view-control-buttons .viewControlButton {
   filter: brightness(50%);
 }
 
+.mobile #map-overlay:hover {
+  filter: unset;
+}
+
 body.mobile #map-overlay {
   height: 100px;
 }
