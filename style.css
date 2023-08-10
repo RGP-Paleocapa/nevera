@@ -804,7 +804,7 @@ body.view-control-buttons .viewControlButton {
   margin-left: 105px;
 }
 
-#map-overlay {
+body #map-overlay {
   position: absolute;
   bottom: 1%;
   right: 2%;
@@ -815,11 +815,11 @@ body.view-control-buttons .viewControlButton {
   overflow: hidden;
 }
 
-#map-overlay:hover {
+body #map-overlay:hover {
   filter: brightness(50%);
 }
 
-.mobile #map-overlay:hover {
+body.mobile #map-overlay:hover {
   filter: unset;
 }
 
@@ -827,7 +827,7 @@ body.mobile #map-overlay {
   height: 100px;
 }
 
-body.mobile #map-overlay.active {
+body #map-overlay.active {
   filter: brightness(100%);
   position: fixed;
   top: 0;
@@ -843,18 +843,18 @@ body.mobile #map-overlay.active {
   overflow: auto;
 }
 
-#map-overlay.active .close-map {
+body #map-overlay.active .close-map {
   position: absolute;
   top: 2%;
   right: 2%;
   display: block;
 }
 
-#map-overlay svg {
+body #map-overlay svg {
   height: 100%;
 }
 
-#map-overlay .close-map {
+body #map-overlay .close-map {
   display: none;
   width: 2rem;
   cursor: pointer;
