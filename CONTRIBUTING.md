@@ -66,9 +66,10 @@ We welcome contributions from everyone who is interested in improving and expand
 
 8. **Keep your fork up to date**:
     ```bash
-    git pull upstream master
-    git push origin master
+    git pull upstream main
+    git push origin main
     ```
+
 
 ### Additional Guidelines
 
