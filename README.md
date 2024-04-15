@@ -32,7 +32,7 @@ cd nevera
 ## Contributing
 We welcome contributions to Nevera! For detailed instructions on how to contribute, please see our [CONTRIBUTING guidelines](CONTRIBUTING.md).
 
-## Credits
+<!-- ## Credits
 
 This project was initially developed by [Developer Name], under the supervision of Renato Cortinovis. We are also grateful for the invaluable contributions from the following developers:
 
@@ -40,7 +40,7 @@ This project was initially developed by [Developer Name], under the supervision 
 - Faye Kenowa Diop
 - Puiu Rares Gabriel
 
-Their hard work and dedication have been crucial in the evolution of this project.
+Their hard work and dedication have been crucial in the evolution of this project. -->
 
 ## License
 
