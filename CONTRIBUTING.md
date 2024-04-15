@@ -78,3 +78,7 @@ We welcome contributions from everyone who is interested in improving and expand
 - **Licenses and Copyrights**: By contributing, you agree that your contributions will be licensed under the same Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 We look forward to your contributions, and thank you for your interest in helping develop Nevera!
+
+<!-- ### Recognition and Credits
+
+We believe in recognizing the hard work and contributions of all our developers. Contributors are acknowledged in our README under the Credits section. Major contributors may also be highlighted in release notes or project documentation. Please make sure to provide accurate information about your contributions to ensure proper acknowledgment. -->

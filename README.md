@@ -32,6 +32,16 @@ cd nevera
 ## Contributing
 We welcome contributions to Nevera! For detailed instructions on how to contribute, please see our [CONTRIBUTING guidelines](CONTRIBUTING.md).
 
+## Credits
+
+This project was initially developed by [Developer Name], under the supervision of Renato Cortinovis. We are also grateful for the invaluable contributions from the following developers:
+
+- Nicola Invernizzi
+- Faye Kenowa Diop
+- Puiu Rares Gabriel
+
+Their hard work and dedication have been crucial in the evolution of this project.
+
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). This allows for sharing and adapting the work non-commercially, as long as appropriate credit is given and any new creations are licensed under identical terms.
