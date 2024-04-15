@@ -1,3 +1,3 @@
 # nevera
 
-<a target="_blank">https://rgp-paleocapa.github.io/nevera/</a>
+<a href="https://rgp-paleocapa.github.io/nevera" target="_blank">Website</a>
