@@ -28,7 +28,7 @@ We welcome contributions from everyone who is interested in improving and expand
 
 1. **Clone your forked repository**:
    ```bash
-   git clone https://github.com/your-username/nevera
+   git clone https://github.com/rgp-paleocapa/nevera
    cd nevera
    ```
 
@@ -37,7 +37,7 @@ We welcome contributions from everyone who is interested in improving and expand
     git remote add upstream https://github.com/rgp-paleocapa/nevera
     ```
 
-3. **Create a new branch for your changes**:
+3. **Create a new branch for your changes "-b" to create**:
     ```bash
     git checkout -b your-feature-branch-name
     ```
@@ -47,6 +47,7 @@ We welcome contributions from everyone who is interested in improving and expand
     git add .
     git commit -m "Add a descriptive commit message here"
     ```
+    Use the -b flag with git checkout to create a new branch named your-feature-branch-name and switch to it. This branch will contain the changes you're working on. Remember to use a descriptive name for your branch that reflects the feature or fix you're implementing.
 
 5. **Fetch the latest changes from the upstream before pushing**:
     ```bash
