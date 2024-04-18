@@ -42,7 +42,14 @@ var APP_DATA = {
           target: "1-museo-2",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 0.47983935090504026,
+          "pitch": -0.24488264090410183,
+          "title": "Museo Valdimagnino di Amagno",
+          "text": "entrata"
+        }
+      ],
     },
     {
       id: "1-museo-2",
@@ -86,7 +93,14 @@ var APP_DATA = {
           target: "0-museo-1",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": -1.3964035004162216,
+          "pitch": -0.2144186852938219,
+          "title": "Museo Valdimagnino di Amagno",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "2-ingresso-museo-primo-locale-1",
@@ -130,7 +144,20 @@ var APP_DATA = {
           target: "3-ingresso-museo-primo-locale-2",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 2.0696263665191124,
+          "pitch": -0.23645498179391033,
+          "title": "Campane",
+          "text": "campane e campanelle antiche"
+        },
+        {
+          "yaw": -2.8455095414426914,
+          "pitch": 0.6174025152499762,
+          "title": "cose entrata",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "3-ingresso-museo-primo-locale-2",
@@ -180,7 +207,26 @@ var APP_DATA = {
           target: "4-ingresso-al-tunnel-della-nevera",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 0.6602894520743341,
+          "pitch": 0.3955729112845354,
+          "title": "Oggetti entrata i2",
+          "text": "0"
+        },
+        {
+          "yaw": 1.2722730725212834,
+          "pitch": -0.18766926510757997,
+          "title": "mappa su oggeto&nbsp;",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.617942912404178,
+          "pitch": -0.224065436581661,
+          "title": "oggetti entrata i2",
+          "text": "1"
+        }
+      ],
     },
     {
       id: "4-ingresso-al-tunnel-della-nevera",
@@ -230,7 +276,20 @@ var APP_DATA = {
           target: "5-museo-secondo-locale-1",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": -1.2306920914586392,
+          "pitch": -0.1948963292575865,
+          "title": "Oggetti seconda stanza",
+          "text": "0"
+        },
+        {
+          "yaw": 1.208816503897357,
+          "pitch": -0.3406714748726614,
+          "title": "Omaggio",
+          "text": "Le persone che hanno conrtribuito alla costruzione di questo museo"
+        }
+      ],
     },
     {
       id: "5-museo-secondo-locale-1",
@@ -274,7 +333,20 @@ var APP_DATA = {
           target: "6-museo-secondo-locale-2",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 0.567023140974122,
+          "pitch": -0.35435380978542597,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.9003265388186144,
+          "pitch": -0.03171791431554638,
+          "title": "Oggetti seconda stanza",
+          "text": "1"
+        }
+      ],
     },
     {
       id: "6-museo-secondo-locale-2",
@@ -312,7 +384,14 @@ var APP_DATA = {
           target: "5-museo-secondo-locale-1",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": -2.86482781122937,
+          "pitch": 0.037348969514427566,
+          "title": "cantina vini",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "7-proseguimento-tunnel",
@@ -356,7 +435,14 @@ var APP_DATA = {
           target: "8-svincolo-tunnel",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 0.05126875333364467,
+          "pitch": 0.01875466431265771,
+          "title": "Aula museo",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "8-svincolo-tunnel",
@@ -406,7 +492,20 @@ var APP_DATA = {
           target: "10-nevera",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": -0.8869616198976615,
+          "pitch": -0.23188891911749288,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.5533413390312987,
+          "pitch": -0.19230845110633332,
+          "title": "Museo",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "9-nicchia",
@@ -450,7 +549,14 @@ var APP_DATA = {
           target: "8-svincolo-tunnel",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 0.13748274379255676,
+          "pitch": 0.03552663226146535,
+          "title": "Vini vari",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "10-nevera",
@@ -500,7 +606,20 @@ var APP_DATA = {
           target: "11-piazzetta-esterna-1",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 2.57093305124663,
+          "pitch": 0.30190122157420163,
+          "title": "Vini",
+          "text": "tenuti al fresco, d'inverno venivano sommersi con la neve per tenerli buoni"
+        },
+        {
+          "yaw": -2.7752216618608756,
+          "pitch": -0.585480331577072,
+          "title": "Botola",
+          "text": "Chissà dove porta?"
+        }
+      ],
     },
     {
       id: "11-piazzetta-esterna-1",
@@ -538,9 +657,9 @@ var APP_DATA = {
           target: "10-nevera",
         },
         {
-          yaw: -3.1415641017869156,
-          pitch: 0.46729967059663835,
-          rotation: 1.5707963267948966,
+          yaw: -2.8415641017869156,
+          pitch: 0.36729967059663835,
+          rotation: 0.7707963267948966,
           target: "12-piazzetta-esterna-2",
         },
       ],
@@ -570,7 +689,7 @@ var APP_DATA = {
       ],
       faceSize: 1520,
       initialViewParameters: {
-        yaw: 1.4978434109707948,
+        yaw: 0.6178434109707948,
         pitch: 0.13968407398146887,
         fov: 1.4550425388027854,
       },
@@ -594,7 +713,14 @@ var APP_DATA = {
           target: "13-piazzetta-esterna-3",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          yaw: -0.4921980901382035,
+          pitch: -0.3223224212032427,
+          "title": "Cosa c'è in quel riquadro bianco?",
+          "text": "Vai avanti per scoprire il mistero"
+        },
+      ],
     },
     {
       id: "13-piazzetta-esterna-3",
@@ -638,7 +764,26 @@ var APP_DATA = {
           target: "1-museo-2",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": -3.132283050143341,
+          "pitch": -0.049574861929396974,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 0.31532392460437464,
+          "pitch": -0.2952245705925769,
+          "title": "U-UN... UN FANTASMA!!!?",
+          "text": "Contadino  "
+        },
+        {
+          "yaw": -4.00000090034368578,
+          "pitch": 0.12600622227910918,
+          "title": "Ritorniamo all'inizio",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "14-porticato-1",
@@ -675,12 +820,20 @@ var APP_DATA = {
           rotation: 3.9269908169872414,
           target: "15-porticato-2",
         },
+        {
+          yaw: -1.706518183541572853,
+          pitch: 0.33133365880838774,
+          rotation: 3.141592653589793,
+          target: "12-piazzetta-esterna-2",
+        },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        //pointer
+      ],
     },
     {
       id: "15-porticato-2",
-      name: "Porticato",
+      name: "Scalette porticato",
       levels: [
         {
           tileSize: 256,
@@ -724,7 +877,7 @@ var APP_DATA = {
     },
     {
       id: "16-porticato-3",
-      name: "Porticato",
+      name: "Scalette porticato",
       levels: [
         {
           tileSize: 256,
@@ -758,7 +911,14 @@ var APP_DATA = {
           target: "17-casa-del-maestro",
         },
       ],
-      infoHotspots: [],
+      infoHotspots: [
+        {
+          "yaw": 0.15439878530581552,
+          "pitch": -0.25511697907968767,
+          "title": "Piano superiore",
+          "text": "Text"
+        }
+      ],
     },
     {
       id: "17-casa-del-maestro",
