@@ -65,6 +65,7 @@ We welcome contributions from everyone who is interested in improving and expand
     - You’ll see a Compare & pull request button for your recently pushed branches.
     - Click it, review the changes, and then submit your pull request with a description of your changes.
 
+
 8. **Keep your fork up to date**:
     ```bash
     git fetch upstream
@@ -72,10 +73,6 @@ We welcome contributions from everyone who is interested in improving and expand
     git merge upstream/main
     git push origin main
     ```
-
-
-    git pull upstream main
-    git push origin main
 
 ### Additional Guidelines
 
