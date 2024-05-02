@@ -67,10 +67,15 @@ We welcome contributions from everyone who is interested in improving and expand
 
 8. **Keep your fork up to date**:
     ```bash
-    git pull upstream main
+    git fetch upstream
+    git checkout main
+    git merge upstream/main
     git push origin main
     ```
 
+
+    git pull upstream main
+    git push origin main
 
 ### Additional Guidelines
 

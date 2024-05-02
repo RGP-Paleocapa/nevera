@@ -30,7 +30,7 @@ cd nevera
 - Live Server in VSCode: For running the project locally
 
 ## Contributing
-We welcome contributions to Nevera! For detailed instructions on how to contribute, please see our [CONTRIBUTING guidelines](CONTRIBUTING.md).
+We welcome contributions to Nevera! For detailed instructions on how to contribute, please see our [CONTRIBUTING guidelines](src/documentation/CONTRIBUTING.md).
 
 <!-- ## Credits
 
@@ -47,7 +47,7 @@ Their hard work and dedication have been crucial in the evolution of this projec
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). This allows for sharing and adapting the work non-commercially, as long as appropriate credit is given and any new creations are licensed under identical terms.
 
 <!-- For more details, see the [LICENSE file](https://github.com/rgp-paleocapa/nevera/blob/master/LICENSE). -->
-For more details, see the [LICENSE file](LICENSE).
+For more details, see the [LICENSE file](src/documentation/LICENSE).
 
 
 
