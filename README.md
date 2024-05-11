@@ -1,7 +1,7 @@
 # Nevera
 
 ## Quick links
-- Website: [Visit here](https://rgp-paleocapa.github.io/nevera)
+- Website: [Visit here](https://nicolainve.github.io/nevera)
 
 ## Getting started
 ### Prerequisites
@@ -15,7 +15,7 @@ Before you can run nevera, make sure you have the following installed:
 To get started with nevera, follow these steps:
 ```bash
 # Clone the repository
-git clone https://github.com/rgp-paleocapa/nevera
+git clone https://github.com/nicolainve/nevera
 
 # Navigate to the project directory
 cd nevera
@@ -29,8 +29,8 @@ cd nevera
 - HTML/CSS: Styling and structure of the web interface
 - Live Server in VSCode: For running the project locally
 
-## Contributing
-We welcome contributions to Nevera! For detailed instructions on how to contribute, please see our [CONTRIBUTING guidelines](CONTRIBUTING.md).
+<!-- ## Contributing
+We welcome contributions to Nevera! For detailed instructions on how to contribute, please see our [CONTRIBUTING guidelines](CONTRIBUTING.md). -->
 
 <!-- ## Credits
 
