@@ -2,7 +2,7 @@ var APP_DATA = {
   scenes: [
     {
       id: "0-museo-1",
-      name: "Museo",
+      name: "Museo", 
       levels: [
         {
           tileSize: 256,
