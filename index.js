@@ -163,7 +163,7 @@
     document.body.classList.add("fullscreen-disabled");
   }
 
-  var test2 = [scenes[0], scenes[2], scenes[5], scenes[8], scenes[10]];
+  var test2 = [scenes[0], scenes[2], scenes[5], scenes[8], scenes[10], scenes[11]];
 
   test2.forEach(function (scene) {
     var el = document.querySelector(
