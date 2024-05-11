@@ -113,6 +113,10 @@
     // Create link hotspots.
     data.linkHotspots.forEach(function (hotspot) {
       var element = createLinkHotspotElement(hotspot);
+      var imgElement = element.querySelector('img'); // Img inside Div
+      if (hotspot.isRed) { // isRed attribute added to data.js
+        imgElement.src = './assets/img/linkred.png'; // Changing src link of div>img
+      }
       scene
         .hotspotContainer()
         .createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
