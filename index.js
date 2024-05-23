@@ -23,13 +23,15 @@
 
   var mapOverlay = document.getElementById("map-overlay");
 
+  // Show map overlay when clicked
   mapOverlay.addEventListener("click", () => {
     mapOverlay.classList.add("active");
   });
 
-  var closeMap = document.querySelector("#map-overlay .close-map");
+  var closeMapButton = document.querySelector("#map-overlay .close-map");
 
-  closeMap.addEventListener("click", (e) => {
+  // Close map overlay when the close button is clicked
+  closeMapButton.addEventListener("click", (e) => {
     if (mapOverlay.classList.contains("active")) {
       e.stopPropagation();
       mapOverlay.classList.remove("active");
@@ -46,6 +48,7 @@
 
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
+    var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
     var setMode = function () {
       if (mql.matches) {
         document.body.classList.remove("desktop");
@@ -55,7 +58,6 @@
         document.body.classList.add("desktop");
       }
     };
-    var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
     setMode();
     mql.addListener(setMode);
   } else {
@@ -167,9 +169,10 @@
     document.body.classList.add("fullscreen-disabled");
   }
 
-  var test2 = [scenes[0], scenes[2], scenes[5], scenes[8], scenes[10], scenes[11]];
+  // Scenes to be highlighted on the map
+  var highlightedScenes = [scenes[0], scenes[2], scenes[5], scenes[8], scenes[10], scenes[11]];
 
-  test2.forEach(function (scene) {
+  highlightedScenes.forEach(function (scene) {
     var el = document.querySelector(
       '#map-overlay  .scene[data-id="' + scene.data.id + '"]'
     );
@@ -403,15 +406,18 @@ var welcomePage = document.getElementById("welcome-page");
 var exploreButton = document.getElementById("explore-button");
 var infoButton = document.getElementById("info-button");
 
+// Show welcome page if not seen before
 if (localStorage.getItem("intro") !== "true") {
   welcomePage.classList.add("active");
 }
 
+// Hide welcome page and store state in local storage
 exploreButton.addEventListener("click", function () {
   localStorage.setItem("intro", "true");
   welcomePage.classList.remove("active");
 });
 
+// Show welcome page on info button click
 infoButton.addEventListener("click", function () {
   welcomePage.classList.add("active");
 });
