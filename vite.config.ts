@@ -15,7 +15,7 @@ export default defineConfig({
     }
   },
   plugins: [react()],
-  base: "/react-marzipano/",
+  base: "/nevera/",
   server: {
     open: true,
   }
