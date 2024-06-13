@@ -1,5 +1,5 @@
 # Site
-- [React Marzipano](https://rgp-paleocapa.github.io/react-marzipano/)
+- [React Marzipano](https://rgp-paleocapa.github.io/nevera/)
 
 
 # React + TypeScript + Vite
