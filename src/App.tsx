@@ -13,6 +13,7 @@ const App = () => {
   //   console.log("Current index " + currentSceneIndex);
   // }, [currentSceneIndex]);
 
+
   return (
     <>
       <MarzipanoPage />
