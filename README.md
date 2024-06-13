@@ -1,53 +1,34 @@
-# Nevera
+# Site
+- [React Marzipano](https://rgp-paleocapa.github.io/react-marzipano/)
 
-## Quick links
-- Website: [Visit here](https://rgp-paleocapa.github.io/nevera)
 
-## Getting started
-### Prerequisites
-Before you can run nevera, make sure you have the following installed:
+# React + TypeScript + Vite
 
-- NO node.js. Vanilla
-- A modern web browser
-- Visual Studio Code with Live Server extension
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Installation and Running the Project
-To get started with nevera, follow these steps:
-```bash
-# Clone the repository
-git clone https://github.com/rgp-paleocapa/nevera
+Currently, two official plugins are available:
 
-# Navigate to the project directory
-cd nevera
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# Launch the project
-# Open Visual Studio Code, navigate to the project folder, right-click on the 'index.html' file, and select 'Open with Live Server'
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
 ```
 
-## Technology Stack
-- JavaScript: Core programming language
-- HTML/CSS: Styling and structure of the web interface
-- Live Server in VSCode: For running the project locally
-
-## Contributing
-We welcome contributions to Nevera! For detailed instructions on how to contribute, please see our [CONTRIBUTING guidelines](src/documentation/CONTRIBUTING.md).
-
-<!-- ## Credits
-
-This project was initially developed by [Developer Name], under the supervision of Renato Cortinovis. We are also grateful for the invaluable contributions from the following developers:
-
-- Nicola Invernizzi
-- Faye Kenowa Diop
-- Puiu Rares Gabriel
-
-Their hard work and dedication have been crucial in the evolution of this project. -->
-
-## License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). This allows for sharing and adapting the work non-commercially, as long as appropriate credit is given and any new creations are licensed under identical terms.
-
-<!-- For more details, see the [LICENSE file](https://github.com/rgp-paleocapa/nevera/blob/master/LICENSE). -->
-For more details, see the [LICENSE file](src/documentation/LICENSE).
-
-
-
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

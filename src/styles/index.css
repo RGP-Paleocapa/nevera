@@ -1,0 +1,34 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html, body {
+  @apply w-full h-full p-0 m-0 overflow-hidden bg-black text-white font-sans text-base;
+}
+
+#pano {
+  @apply absolute top-0 left-0 w-full h-full overflow-hidden;
+}
+
+.hotspot__icon {
+  @apply w-8 h-8 bg-blue-500 text-white rounded-full flex justify-center items-center cursor-pointer;
+}
+
+.hotspot__content {
+  @apply bg-white text-blue-900 bg-opacity-80 rounded-md shadow-lg p-4 mt-2;
+}
+
+.hotspot__title {
+  @apply font-bold mb-2;
+}
+
+.hotspot__text {
+  @apply text-sm;
+}
+
+
+/* Add this to your global CSS file or within a <style> tag in your HTML */
+.iframe-custom-size {
+  width: calc(100vw - 40rem); /* Adjust the 4rem to the desired margin */
+  height: calc(100vh - 4rem); /* Adjust the 4rem to the desired margin */
+}
