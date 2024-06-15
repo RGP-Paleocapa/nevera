@@ -3,11 +3,16 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: daily
+      interval: monthly
+      day: sunday
+      time: "03:00"
     commit-message:
       include: scope
       prefix: "deps"
     rebase-strategy: auto
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
     reviewers:
       - rgp-paleocapa
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
